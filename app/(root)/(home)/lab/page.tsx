@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const Lab = () => {
   return (
     <div>page</div>
   )
 }
 
-export default page
+export default Lab
