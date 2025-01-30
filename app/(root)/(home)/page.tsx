@@ -10,7 +10,7 @@ const Home = () => {
       {/* item cards */}
       <ItemCards/>
       </div>
-      <div className='flex flex-row gap-5 min-h-screen'>
+      <div className='flex flex-row gap-5 min-h-full'>
          {/* calender */}
          <div className='flex-1'>
          <BigCalender/>

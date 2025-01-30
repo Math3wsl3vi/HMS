@@ -18,13 +18,13 @@ export const sidebarLinks = [
     },
     {
         label: 'Doctors',
-        route:'/doctors',
+        route:'/doctor',
         imgUrl:'/images/doctor.png'
 
     },
     {
-        label: 'Nurse',
-        route:'/nurse',
+        label: 'Nurses',
+        route:'/nurses',
         imgUrl:'/images/nurse.png'
 
     },
@@ -36,7 +36,7 @@ export const sidebarLinks = [
     },
     {
         label: 'Accounts',
-        route:'/accounts',
+        route:'/Accounts',
         imgUrl:'/images/accounting.png'
 
     },
@@ -64,10 +64,9 @@ export const ItemCard = [
     },
     {
         id:'2',
-        name: 'Doctors',
+        name: 'Patient Registration',
         icon: '/images/doctor.png',
-        route:'/doctor',
-        count:'12'
+        route:'/patient-registration',
     },
     {
         id:'3',
@@ -78,46 +77,44 @@ export const ItemCard = [
     },
     {
         id:'4',
-        name: 'Pharmacists',
+        name: 'Bed Management',
         icon: '/images/pharmacist.png',
         route:'/pharmacists',
-        count:'12'
     },
     {
         id:'5',
-        name: 'Appointments',
+        name: 'Procurement',
         icon: '/images/business.png',
         route:'/appointments',
-        count:'12'
     },
     {
         id:'6',
-        name: 'Laboratory',
-        icon: '/images/lab.png',
-        route:'/lab',
+        name: 'Reception',
+        icon: '/images/reception.png',
+        route:'/hospital-visit',
     },
     {
         id:'7',
-        name: 'Ward',
-        icon: '/images/ward.png',
-        route:'/ward',
+        name: 'Triage',
+        icon: '/images/nurse.png',
+        route:'/triage',
     },
     {
         id:'8',
-        name: 'Procurement',
-        icon: '/images/procurement.png',
-        route:'/procurement',
+        name: 'Consultation',
+        icon: '/images/doctor.png',
+        route:'/consultation',
     },
     {
         id:'9',
-        name: 'Accounts',
-        icon: '/images/accounting.png',
-        route:'/accounts',
+        name: 'Laboratory',
+        icon: '/images/lab.png',
+        route:'/lab',
     },  {
         id:'10',
-        name: 'Settings',
-        icon: '/images/settings.png',
-        route:'/settings-page',
+        name: 'Pharmacy',
+        icon: '/images/medicine.png',
+        route:'/pharmacy',
     },
     
 ]
